@@ -1,0 +1,37 @@
+/* css reset */
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.main-container {
+    
+    background-image: linear-gradient(to bottom right, rgb(31, 72, 175)20%, rgb(237, 46, 208));
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-bottom: 80px;
+}
+
+.item {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+
+
+}
